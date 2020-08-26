@@ -4,7 +4,7 @@ metadata:
   name: flask-app-nodeport-svc
 spec:
   selector:
-    app: peak6
+    app: flask
   ports:
   - protocol: "TCP"
     port: 80
